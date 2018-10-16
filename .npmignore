@@ -1,9 +1,0 @@
-node_modules/
-example/
-lib/ios/DLIMiOSExample/
-lib/ios/DLIMiOSExample.xcodeproj
-lib/ios/Pods
-lib/ios/Podfile
-lib/ios/Podfile.lock
-.git
-.gitignore
