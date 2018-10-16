@@ -11,26 +11,38 @@
 		B15A004C217099BC00837891 /* DLIMLib.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B15A004B217099BC00837891 /* DLIMLib.podspec */; };
 		F011C9972171EE9D00A90815 /* DLIMFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F011C9902171EE9D00A90815 /* DLIMFramework.framework */; };
 		F011C9982171EE9D00A90815 /* DLIMFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F011C9902171EE9D00A90815 /* DLIMFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F011CA5E2172090C00A90815 /* DLSessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F011CA4B2172090B00A90815 /* DLSessionViewController.m */; };
-		F011CA612172090C00A90815 /* DLSessionConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F011CA4F2172090C00A90815 /* DLSessionConfig.m */; };
-		F011CA622172090C00A90815 /* DLCellLayoutConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F011CA502172090C00A90815 /* DLCellLayoutConfig.m */; };
-		F011CA632172090C00A90815 /* DLContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = F011CA522172090C00A90815 /* DLContentView.m */; };
-		F011CA652172090C00A90815 /* DLAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = F011CA542172090C00A90815 /* DLAttachment.m */; };
-		F011CA672172090C00A90815 /* DLAttachmentDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = F011CA562172090C00A90815 /* DLAttachmentDecoder.m */; };
-		F011CA6C2172090C00A90815 /* DLIMConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F011CA5B2172090C00A90815 /* DLIMConfigManager.m */; };
-		F011CA6D2172090C00A90815 /* DLIMManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F011CA5C2172090C00A90815 /* DLIMManager.m */; };
-		F011CA6F2172092700A90815 /* DLIM.h in Headers */ = {isa = PBXBuildFile; fileRef = F011CA5A2172090C00A90815 /* DLIM.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F011CA702172092A00A90815 /* DLIMConfigManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F011CA5D2172090C00A90815 /* DLIMConfigManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F011CA712172092B00A90815 /* DLIMManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F011CA4C2172090B00A90815 /* DLIMManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F011CA722172092D00A90815 /* DLSessionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F011CA4D2172090B00A90815 /* DLSessionViewController.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		F011CA732172094700A90815 /* DLCellLayoutConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = F011CA582172090C00A90815 /* DLCellLayoutConfig.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		F011CA742172094900A90815 /* DLSessionConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = F011CA592172090C00A90815 /* DLSessionConfig.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F085912E216DFC4B00C47F46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F085912D216DFC4B00C47F46 /* AppDelegate.m */; };
 		F0859134216DFC4B00C47F46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0859132216DFC4B00C47F46 /* Main.storyboard */; };
 		F0859136216DFC4B00C47F46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0859135216DFC4B00C47F46 /* Assets.xcassets */; };
 		F0859139216DFC4B00C47F46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0859137216DFC4B00C47F46 /* LaunchScreen.storyboard */; };
 		F085913C216DFC4B00C47F46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F085913B216DFC4B00C47F46 /* main.m */; };
 		F0859181216EF8CD00C47F46 /* NTESViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F085917D216EF8CD00C47F46 /* NTESViewController.m */; };
+		F0D2FF182175E66400599A4A /* DLIMManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D2FF052175E66400599A4A /* DLIMManager.m */; };
+		F0D2FF192175E66400599A4A /* DLIMConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D2FF062175E66400599A4A /* DLIMConfigManager.m */; };
+		F0D2FF1A2175E66400599A4A /* DLSessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D2FF072175E66400599A4A /* DLSessionViewController.m */; };
+		F0D2FF1B2175E66400599A4A /* DLSessionConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D2FF0C2175E66400599A4A /* DLSessionConfig.m */; };
+		F0D2FF1C2175E66400599A4A /* DLCellLayoutConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D2FF0D2175E66400599A4A /* DLCellLayoutConfig.m */; };
+		F0D2FF1D2175E66400599A4A /* DLContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D2FF0F2175E66400599A4A /* DLContentView.m */; };
+		F0D2FF1E2175E66400599A4A /* DLAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D2FF112175E66400599A4A /* DLAttachment.m */; };
+		F0D2FF1F2175E66400599A4A /* DLAttachmentDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D2FF132175E66400599A4A /* DLAttachmentDecoder.m */; };
+		F0D2FF202175E66400599A4A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0D2FF172175E66400599A4A /* Info.plist */; };
+		F0D2FF212175E67000599A4A /* DLIM.h in Headers */ = {isa = PBXBuildFile; fileRef = F0D2FF042175E66400599A4A /* DLIM.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0D2FF222175E67300599A4A /* DLIMManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D2FF052175E66400599A4A /* DLIMManager.m */; };
+		F0D2FF232175E67500599A4A /* DLIMConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D2FF062175E66400599A4A /* DLIMConfigManager.m */; };
+		F0D2FF242175E67800599A4A /* DLSessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D2FF072175E66400599A4A /* DLSessionViewController.m */; };
+		F0D2FF252175E67900599A4A /* DLIMConfigManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F0D2FF082175E66400599A4A /* DLIMConfigManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0D2FF262175E67B00599A4A /* DLIMManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F0D2FF092175E66400599A4A /* DLIMManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0D2FF272175E67F00599A4A /* DLSessionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F0D2FF0A2175E66400599A4A /* DLSessionViewController.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F0D2FF282175E68900599A4A /* DLSessionConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D2FF0C2175E66400599A4A /* DLSessionConfig.m */; };
+		F0D2FF292175E68B00599A4A /* DLCellLayoutConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D2FF0D2175E66400599A4A /* DLCellLayoutConfig.m */; };
+		F0D2FF2A2175E68C00599A4A /* DLSessionConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = F0D2FF162175E66400599A4A /* DLSessionConfig.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F0D2FF2B2175E68E00599A4A /* DLCellLayoutConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = F0D2FF152175E66400599A4A /* DLCellLayoutConfig.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F0D2FF2C2175E69100599A4A /* DLContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D2FF0F2175E66400599A4A /* DLContentView.m */; };
+		F0D2FF2D2175E69300599A4A /* DLAttachmentDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = F0D2FF102175E66400599A4A /* DLAttachmentDecoder.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F0D2FF2E2175E69500599A4A /* DLAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D2FF112175E66400599A4A /* DLAttachment.m */; };
+		F0D2FF2F2175E69700599A4A /* DLAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = F0D2FF122175E66400599A4A /* DLAttachment.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F0D2FF302175E69900599A4A /* DLAttachmentDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D2FF132175E66400599A4A /* DLAttachmentDecoder.m */; };
+		F0D2FF312175E69B00599A4A /* DLContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = F0D2FF142175E66400599A4A /* DLContentView.h */; settings = {ATTRIBUTES = (Private, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,26 +75,8 @@
 		B15A004B217099BC00837891 /* DLIMLib.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = DLIMLib.podspec; path = ../../DLIMLib.podspec; sourceTree = "<group>"; };
 		D69877C930945BB52FDE317B /* Pods-DLIMFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DLIMFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-DLIMFramework/Pods-DLIMFramework.release.xcconfig"; sourceTree = "<group>"; };
 		F011C9902171EE9D00A90815 /* DLIMFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DLIMFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F011C9932171EE9D00A90815 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F011C9CF2171F57700A90815 /* libPods-DLIMiOSExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-DLIMiOSExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F011C9F92171FABE00A90815 /* libPods-DLIMiOSExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-DLIMiOSExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F011CA4B2172090B00A90815 /* DLSessionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLSessionViewController.m; sourceTree = "<group>"; };
-		F011CA4C2172090B00A90815 /* DLIMManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLIMManager.h; sourceTree = "<group>"; };
-		F011CA4D2172090B00A90815 /* DLSessionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLSessionViewController.h; sourceTree = "<group>"; };
-		F011CA4F2172090C00A90815 /* DLSessionConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLSessionConfig.m; sourceTree = "<group>"; };
-		F011CA502172090C00A90815 /* DLCellLayoutConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLCellLayoutConfig.m; sourceTree = "<group>"; };
-		F011CA522172090C00A90815 /* DLContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLContentView.m; sourceTree = "<group>"; };
-		F011CA532172090C00A90815 /* DLAttachmentDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLAttachmentDecoder.h; sourceTree = "<group>"; };
-		F011CA542172090C00A90815 /* DLAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLAttachment.m; sourceTree = "<group>"; };
-		F011CA552172090C00A90815 /* DLAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLAttachment.h; sourceTree = "<group>"; };
-		F011CA562172090C00A90815 /* DLAttachmentDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLAttachmentDecoder.m; sourceTree = "<group>"; };
-		F011CA572172090C00A90815 /* DLContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLContentView.h; sourceTree = "<group>"; };
-		F011CA582172090C00A90815 /* DLCellLayoutConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLCellLayoutConfig.h; sourceTree = "<group>"; };
-		F011CA592172090C00A90815 /* DLSessionConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLSessionConfig.h; sourceTree = "<group>"; };
-		F011CA5A2172090C00A90815 /* DLIM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLIM.h; sourceTree = "<group>"; };
-		F011CA5B2172090C00A90815 /* DLIMConfigManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLIMConfigManager.m; sourceTree = "<group>"; };
-		F011CA5C2172090C00A90815 /* DLIMManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLIMManager.m; sourceTree = "<group>"; };
-		F011CA5D2172090C00A90815 /* DLIMConfigManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLIMConfigManager.h; sourceTree = "<group>"; };
 		F0859129216DFC4B00C47F46 /* DLIMiOSExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DLIMiOSExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F085912C216DFC4B00C47F46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F085912D216DFC4B00C47F46 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -94,6 +88,24 @@
 		F085917D216EF8CD00C47F46 /* NTESViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESViewController.m; sourceTree = "<group>"; };
 		F085917F216EF8CD00C47F46 /* NTESViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESViewController.h; sourceTree = "<group>"; };
 		F08591CC216F2C3C00C47F46 /* NIMSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NIMSDK.framework; path = Pods/NIMSDK_LITE/NIMSDK/NIMSDK.framework; sourceTree = "<group>"; };
+		F0D2FF042175E66400599A4A /* DLIM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLIM.h; sourceTree = "<group>"; };
+		F0D2FF052175E66400599A4A /* DLIMManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLIMManager.m; sourceTree = "<group>"; };
+		F0D2FF062175E66400599A4A /* DLIMConfigManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLIMConfigManager.m; sourceTree = "<group>"; };
+		F0D2FF072175E66400599A4A /* DLSessionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLSessionViewController.m; sourceTree = "<group>"; };
+		F0D2FF082175E66400599A4A /* DLIMConfigManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLIMConfigManager.h; sourceTree = "<group>"; };
+		F0D2FF092175E66400599A4A /* DLIMManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLIMManager.h; sourceTree = "<group>"; };
+		F0D2FF0A2175E66400599A4A /* DLSessionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLSessionViewController.h; sourceTree = "<group>"; };
+		F0D2FF0C2175E66400599A4A /* DLSessionConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLSessionConfig.m; sourceTree = "<group>"; };
+		F0D2FF0D2175E66400599A4A /* DLCellLayoutConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLCellLayoutConfig.m; sourceTree = "<group>"; };
+		F0D2FF0F2175E66400599A4A /* DLContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLContentView.m; sourceTree = "<group>"; };
+		F0D2FF102175E66400599A4A /* DLAttachmentDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLAttachmentDecoder.h; sourceTree = "<group>"; };
+		F0D2FF112175E66400599A4A /* DLAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLAttachment.m; sourceTree = "<group>"; };
+		F0D2FF122175E66400599A4A /* DLAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLAttachment.h; sourceTree = "<group>"; };
+		F0D2FF132175E66400599A4A /* DLAttachmentDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLAttachmentDecoder.m; sourceTree = "<group>"; };
+		F0D2FF142175E66400599A4A /* DLContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLContentView.h; sourceTree = "<group>"; };
+		F0D2FF152175E66400599A4A /* DLCellLayoutConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLCellLayoutConfig.h; sourceTree = "<group>"; };
+		F0D2FF162175E66400599A4A /* DLSessionConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLSessionConfig.h; sourceTree = "<group>"; };
+		F0D2FF172175E66400599A4A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F15287552829EEC91077E549 /* libPods-DLIMFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DLIMFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -138,53 +150,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F011C9912171EE9D00A90815 /* DLIMFramework */ = {
-			isa = PBXGroup;
-			children = (
-				F011CA4E2172090C00A90815 /* CustomChatCell */,
-				F011CA5A2172090C00A90815 /* DLIM.h */,
-				F011CA5D2172090C00A90815 /* DLIMConfigManager.h */,
-				F011CA5B2172090C00A90815 /* DLIMConfigManager.m */,
-				F011CA4C2172090B00A90815 /* DLIMManager.h */,
-				F011CA5C2172090C00A90815 /* DLIMManager.m */,
-				F011CA4D2172090B00A90815 /* DLSessionViewController.h */,
-				F011CA4B2172090B00A90815 /* DLSessionViewController.m */,
-				F011C9932171EE9D00A90815 /* Info.plist */,
-			);
-			path = DLIMFramework;
-			sourceTree = "<group>";
-		};
-		F011CA4E2172090C00A90815 /* CustomChatCell */ = {
-			isa = PBXGroup;
-			children = (
-				F011CA4F2172090C00A90815 /* DLSessionConfig.m */,
-				F011CA502172090C00A90815 /* DLCellLayoutConfig.m */,
-				F011CA512172090C00A90815 /* Message */,
-				F011CA582172090C00A90815 /* DLCellLayoutConfig.h */,
-				F011CA592172090C00A90815 /* DLSessionConfig.h */,
-			);
-			path = CustomChatCell;
-			sourceTree = "<group>";
-		};
-		F011CA512172090C00A90815 /* Message */ = {
-			isa = PBXGroup;
-			children = (
-				F011CA522172090C00A90815 /* DLContentView.m */,
-				F011CA532172090C00A90815 /* DLAttachmentDecoder.h */,
-				F011CA542172090C00A90815 /* DLAttachment.m */,
-				F011CA552172090C00A90815 /* DLAttachment.h */,
-				F011CA562172090C00A90815 /* DLAttachmentDecoder.m */,
-				F011CA572172090C00A90815 /* DLContentView.h */,
-			);
-			path = Message;
-			sourceTree = "<group>";
-		};
 		F0859120216DFC4B00C47F46 = {
 			isa = PBXGroup;
 			children = (
+				F0D2FF032175E66400599A4A /* DLIMFramework */,
 				B15A004B217099BC00837891 /* DLIMLib.podspec */,
 				F085912B216DFC4B00C47F46 /* DLIMiOSExample */,
-				F011C9912171EE9D00A90815 /* DLIMFramework */,
 				F085912A216DFC4B00C47F46 /* Products */,
 				7C80DE6B771FD4CD1A35EFC1 /* Pods */,
 				B4B0AC0F1BCB86251C91CE6C /* Frameworks */,
@@ -216,6 +187,47 @@
 			path = DLIMiOSExample;
 			sourceTree = "<group>";
 		};
+		F0D2FF032175E66400599A4A /* DLIMFramework */ = {
+			isa = PBXGroup;
+			children = (
+				F0D2FF042175E66400599A4A /* DLIM.h */,
+				F0D2FF052175E66400599A4A /* DLIMManager.m */,
+				F0D2FF062175E66400599A4A /* DLIMConfigManager.m */,
+				F0D2FF072175E66400599A4A /* DLSessionViewController.m */,
+				F0D2FF082175E66400599A4A /* DLIMConfigManager.h */,
+				F0D2FF092175E66400599A4A /* DLIMManager.h */,
+				F0D2FF0A2175E66400599A4A /* DLSessionViewController.h */,
+				F0D2FF0B2175E66400599A4A /* CustomChatCell */,
+				F0D2FF172175E66400599A4A /* Info.plist */,
+			);
+			path = DLIMFramework;
+			sourceTree = "<group>";
+		};
+		F0D2FF0B2175E66400599A4A /* CustomChatCell */ = {
+			isa = PBXGroup;
+			children = (
+				F0D2FF0C2175E66400599A4A /* DLSessionConfig.m */,
+				F0D2FF0D2175E66400599A4A /* DLCellLayoutConfig.m */,
+				F0D2FF0E2175E66400599A4A /* Message */,
+				F0D2FF152175E66400599A4A /* DLCellLayoutConfig.h */,
+				F0D2FF162175E66400599A4A /* DLSessionConfig.h */,
+			);
+			path = CustomChatCell;
+			sourceTree = "<group>";
+		};
+		F0D2FF0E2175E66400599A4A /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				F0D2FF0F2175E66400599A4A /* DLContentView.m */,
+				F0D2FF102175E66400599A4A /* DLAttachmentDecoder.h */,
+				F0D2FF112175E66400599A4A /* DLAttachment.m */,
+				F0D2FF122175E66400599A4A /* DLAttachment.h */,
+				F0D2FF132175E66400599A4A /* DLAttachmentDecoder.m */,
+				F0D2FF142175E66400599A4A /* DLContentView.h */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -223,12 +235,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F011CA6F2172092700A90815 /* DLIM.h in Headers */,
-				F011CA702172092A00A90815 /* DLIMConfigManager.h in Headers */,
-				F011CA712172092B00A90815 /* DLIMManager.h in Headers */,
-				F011CA722172092D00A90815 /* DLSessionViewController.h in Headers */,
-				F011CA732172094700A90815 /* DLCellLayoutConfig.h in Headers */,
-				F011CA742172094900A90815 /* DLSessionConfig.h in Headers */,
+				F0D2FF212175E67000599A4A /* DLIM.h in Headers */,
+				F0D2FF252175E67900599A4A /* DLIMConfigManager.h in Headers */,
+				F0D2FF262175E67B00599A4A /* DLIMManager.h in Headers */,
+				F0D2FF272175E67F00599A4A /* DLSessionViewController.h in Headers */,
+				F0D2FF2D2175E69300599A4A /* DLAttachmentDecoder.h in Headers */,
+				F0D2FF2B2175E68E00599A4A /* DLCellLayoutConfig.h in Headers */,
+				F0D2FF2F2175E69700599A4A /* DLAttachment.h in Headers */,
+				F0D2FF312175E69B00599A4A /* DLContentView.h in Headers */,
+				F0D2FF2A2175E68C00599A4A /* DLSessionConfig.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +341,7 @@
 				B15A004C217099BC00837891 /* DLIMLib.podspec in Resources */,
 				F0859139216DFC4B00C47F46 /* LaunchScreen.storyboard in Resources */,
 				F0859136216DFC4B00C47F46 /* Assets.xcassets in Resources */,
+				F0D2FF202175E66400599A4A /* Info.plist in Resources */,
 				F0859134216DFC4B00C47F46 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -386,14 +402,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F011CA632172090C00A90815 /* DLContentView.m in Sources */,
-				F011CA6D2172090C00A90815 /* DLIMManager.m in Sources */,
-				F011CA6C2172090C00A90815 /* DLIMConfigManager.m in Sources */,
-				F011CA622172090C00A90815 /* DLCellLayoutConfig.m in Sources */,
-				F011CA612172090C00A90815 /* DLSessionConfig.m in Sources */,
-				F011CA652172090C00A90815 /* DLAttachment.m in Sources */,
-				F011CA5E2172090C00A90815 /* DLSessionViewController.m in Sources */,
-				F011CA672172090C00A90815 /* DLAttachmentDecoder.m in Sources */,
+				F0D2FF222175E67300599A4A /* DLIMManager.m in Sources */,
+				F0D2FF282175E68900599A4A /* DLSessionConfig.m in Sources */,
+				F0D2FF302175E69900599A4A /* DLAttachmentDecoder.m in Sources */,
+				F0D2FF2E2175E69500599A4A /* DLAttachment.m in Sources */,
+				F0D2FF2C2175E69100599A4A /* DLContentView.m in Sources */,
+				F0D2FF292175E68B00599A4A /* DLCellLayoutConfig.m in Sources */,
+				F0D2FF232175E67500599A4A /* DLIMConfigManager.m in Sources */,
+				F0D2FF242175E67800599A4A /* DLSessionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,7 +418,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0859181216EF8CD00C47F46 /* NTESViewController.m in Sources */,
+				F0D2FF1F2175E66400599A4A /* DLAttachmentDecoder.m in Sources */,
+				F0D2FF1A2175E66400599A4A /* DLSessionViewController.m in Sources */,
+				F0D2FF1D2175E66400599A4A /* DLContentView.m in Sources */,
+				F0D2FF182175E66400599A4A /* DLIMManager.m in Sources */,
+				F0D2FF1C2175E66400599A4A /* DLCellLayoutConfig.m in Sources */,
+				F0D2FF192175E66400599A4A /* DLIMConfigManager.m in Sources */,
 				F085913C216DFC4B00C47F46 /* main.m in Sources */,
+				F0D2FF1B2175E66400599A4A /* DLSessionConfig.m in Sources */,
+				F0D2FF1E2175E66400599A4A /* DLAttachment.m in Sources */,
 				F085912E216DFC4B00C47F46 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -480,7 +504,6 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = DLIMFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
